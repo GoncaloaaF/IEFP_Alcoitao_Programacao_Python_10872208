@@ -42,7 +42,7 @@ int main(void) {
 
     printf("----------------------------\n");
 
-    int num[10]; //   int num[10]; <- o array tem 10 elementos 
+    int num[10]; //   int num[10]; <- o array tem 10 elementos
 
     //num[20] = 10; // index may have a value of '20' which is out of bounds
 
