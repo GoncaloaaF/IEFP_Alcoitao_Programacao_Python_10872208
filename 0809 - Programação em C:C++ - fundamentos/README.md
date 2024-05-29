@@ -11,10 +11,11 @@
 * scanf
 * format specifier (%i, %d, ....)
 * Operações
+ * += e -=
 * Condições
-  * operadores relacionais
-  * if
-  * if else
-  * else
-  * switch
+ * operadores relacionais
+ * if
+ * if else
+ * else
+ * switch
   
