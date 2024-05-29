@@ -2,8 +2,9 @@
 
 ## 0809 - Programação em C/C++ - fundamentos
 
-### Conteudos 
+### Conteúdos 
 
+* Comentários
 * Variáveis
 * Tipos de dados
 * printf
@@ -16,4 +17,4 @@
   * if else
   * else
   * switch
-*  
+  
