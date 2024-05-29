@@ -18,4 +18,9 @@
   * if else
   * else
   * switch
-  
+* Loops
+  * do-while
+  * while
+  * for
+* arrays
+* Strings (array char)  
