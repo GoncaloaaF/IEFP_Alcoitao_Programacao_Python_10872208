@@ -23,4 +23,7 @@
   * while
   * for
 * arrays
-* Strings (array char)  
+* Strings (array char)
+* Funções
+* Scope de var
+* include
