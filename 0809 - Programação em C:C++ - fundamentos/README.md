@@ -23,7 +23,12 @@
   * while
   * for
 * arrays
+  * arrays 1D
+  * arrats 2D	
 * Strings (array char)
 * Funções
 * Scope de var
 * include
+* atoi / atof
+* struct
+* typedef
