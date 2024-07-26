@@ -12,7 +12,7 @@ class Agenda:
                          email: str = None,
                          contacto: Contacto = None):
 
-        if Contacto is not None:
+        if contacto is not None:
             self.listaContatos.append(contacto)
             return
 
