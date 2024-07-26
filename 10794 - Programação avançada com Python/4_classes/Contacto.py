@@ -1,7 +1,6 @@
 
 class Contacto:
-    def __init__(self, nome: str, idade: int, email: str, telefone: str):
+    def __init__(self, nome: str, telefone: str, email: str = None):
         self.nome = nome
-        self.idade = idade
         self.email = email
         self.telefone = telefone
