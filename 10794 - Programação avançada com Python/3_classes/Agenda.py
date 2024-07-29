@@ -5,13 +5,12 @@ class Agenda:
         self.nome = nome
         self.listaContatos: list[Contacto] = []
 
+
     def adicionarContato(self,
                          nome: str = None,
                          telefone: str = None,
                          email: str = None,
                          contacto: Contacto = None):
-
-        # garantir que não é adicionados duas vezes o mesmo contacto
 
         if Contacto is not None:
             self.listaContatos.append(contacto)
@@ -25,13 +24,10 @@ class Agenda:
             print(ct)
 
     def removerContato(self, contacto: Contacto):
-
-        if contacto in self.listaContatos:
-            self.listaContatos.remove(contacto)
-
+        pass
 
     def atualizarContato(self, contacto: Contacto):
         pass
 
-    def find_contactoByName(self,name: str) -> Contacto:
-        pass
+
+
