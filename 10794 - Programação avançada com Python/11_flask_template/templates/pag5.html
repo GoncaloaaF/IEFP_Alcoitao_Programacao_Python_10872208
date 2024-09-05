@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %} {{ titulo }}  {% endblock %}
+
+{% block conteudo %}
+
+<h1> {{ titulo }} </h1>
+
+   <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+
+    <p>-------------------</p>
+
+    <!-- {{ lista }} -->
+
+    <ul>
+         {% for al in lista %}
+            <li> {{ al.nome }} | {{ al.idade }}</li>
+         {% endfor %}
+    </ul>
+
+
+
+
+
+{% endblock %}
