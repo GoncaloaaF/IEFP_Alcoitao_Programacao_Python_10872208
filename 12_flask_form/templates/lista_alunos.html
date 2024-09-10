@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block titulo %}
+
+{% endblock %}
+
+
+{% block conteudo %}
+
+  <h1> Lista de Alunos </h1>
+
+    <ul>
+
+        {% for aluno in al %}
+
+            <li>nome: {{ aluno.nome }} | turma: {{ aluno.turma }} </li>
+
+        {% endfor %}
+
+    </ul>
+
+{% endblock %}

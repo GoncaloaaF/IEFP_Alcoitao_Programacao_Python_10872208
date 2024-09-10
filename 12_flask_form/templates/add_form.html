@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block titulo %}
+    add form
+{% endblock %}
+
+
+{% block conteudo %}
+
+<h1> Registar Aluno </h1>
+
+    <form method="post" action="{{ url_for("add_aluno") }}">
+        <input type="text" placeholder="Nome:" id="nome_aluno" name="nome_aluno"> <br>
+        <input type="text" placeholder="Turma:" id="turma_aluno" name="turma_aluno"> <br>
+
+        <input type="submit" value="Registar Aluno">
+    </form>
+
+{% endblock %}
