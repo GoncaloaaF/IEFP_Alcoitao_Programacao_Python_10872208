@@ -7,11 +7,28 @@
 
 {% block conteudo %}
 
+    <!--
+
+    ('nome_aluno', 'nome'),
+    ('turma_aluno', 'turma'),
+    ('pass', 'password'),
+    ('file', 'manual_java.pdf'),
+    ('checkbox1', 'on')
+
+    -->
 <h1> Registar Aluno </h1>
 
     <form method="post" action="{{ url_for("add_aluno") }}">
-        <input type="text" placeholder="Nome:" id="nome_aluno" name="nome_aluno"> <br>
-        <input type="text" placeholder="Turma:" id="turma_aluno" name="turma_aluno"> <br>
+
+        <input type="text" placeholder="Nome:"  name="nome_aluno"> <br>
+        <input type="text" placeholder="Turma:" name="turma_aluno"> <br>
+        <input type="password" placeholder="Turma:" id="pass" name="pass"> <br>
+        <input type="file" id="file" name="file"> <br>
+        <input type="checkbox" id="checkbox1" name="checkbox1"> <br>
+        <input type="checkbox" id="checkbox" name="checkbox"> <br>
+
+        <input type="week" id="week" name="week"> <br>
+        <input type="month" id="mes" name="mes"> <br>
 
         <input type="submit" value="Registar Aluno">
     </form>

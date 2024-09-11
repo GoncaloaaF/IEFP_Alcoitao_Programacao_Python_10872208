@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block titulo %}
+	Home Page
+{% endblock %}
+
+{% block conteudo %}
+
+    <h1> Homepage </h1>
+
+    <img src="{{ url_for("static", filename="foto1.jpg") }}" width="250">
+
+
+    <p> ola Mundo </p>
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vestibulum iaculis augue consequat sapien tempus,
+        ut tristique metus sodales. Praesent interdum ut
+        justo sed efficitur.
+        Nam condimentum tempor massa non consectetur.
+        Ut pulvinar diam sollicitudin accumsan viverra.
+        Suspendisse sollicitudin lorem justo, sed sollicitudin
+        elitaliquam at. Phasellus ac eros dui. Mauris sit amet
+        arcu molestie, lacinia justo eu, semper est.
+        Aliquam a velit sapien. Nulla aliquet ipsum non
+        placerat ultricies. Aliquam erat volutpat.
+        Curabitur vestibulum accumsan ipsum, et blandit ligula
+        ultricies id. Nunc eu iaculis odio. Maecenas in maximus
+        lectus. In faucibus risus nec orci tempus, et iaculis
+        orci mattis. Quisque lacus enim, volutpat eget est non,
+        placerat faucibus nunc.</p>
+{% endblock %}

@@ -23,6 +23,9 @@ def hello_world():  # put application's code here
 @app.route('/txt_aleatorio', methods=['POST'])
 def add_aluno():
 
+
+    print(request.form)
+
     nome = request.form['nome_aluno']
     turma = request.form['turma_aluno']
     al = Aluno(nome, turma)
