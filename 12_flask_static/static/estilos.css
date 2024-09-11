@@ -3,8 +3,42 @@ p {
   text-align: center;
 }
 
-
 body{
     background-color: lightblue;
 }
 
+/*
+ . -> formata classes
+ */
+.myClass{
+    background-color: lightgreen;
+    height: 100px;
+    width: 500px;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}
+
+
+#myId{
+    background-color: lightpink;
+    margin-top: 30px;
+}
+
+.color_green{
+    color: #009f00;
+}
+
+
+.titulo{
+    font-size: large;
+    font-weight: bold;
+}
+
+/*
+div p{
+
+    color: green;
+    text-align: left;
+}
+ */
